@@ -1,1 +1,1 @@
-pub mod driver_controller;
+pub mod hardware_controller;

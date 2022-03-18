@@ -1,7 +1,7 @@
 mod api;
 mod models;
 
-use crate::api::driver_controller::{
+use crate::api::hardware_controller::{
     create_id, delete_id, get, get_id, update_id,
 };
 use actix_web::{get, web, App, HttpResponse, HttpServer, Responder};
